@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Phishing Detection</h1>
+        <form id="predictForm">
+            <label for="features">Enter Features (comma separated):</label><br>
+            <input type="text" id="features" name="features" placeholder="e.g., 1,0,1,1">
+            <button type="button" onclick="submitForm()">Check Website</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
